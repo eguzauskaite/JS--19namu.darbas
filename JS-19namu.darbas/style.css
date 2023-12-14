@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-top: 50px;
+    background-color: #9BABB8;
+    color: white;
+   
+}
+label, input {
+margin-left: 50px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.5em;
+border-radius: 4px;
+border-style: hidden;
+}
+table {
+    background-color: #D7C0AE;
+    width: 800px;
+    margin: auto;
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+
+}
+ th, td {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+th {
+    background: #967E76;
+    text-transform: uppercase;
+}
+td:nth-child(5n+1){
+    background: #dccaca;
+}
